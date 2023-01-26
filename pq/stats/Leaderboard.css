@@ -1,0 +1,16 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.ws-pre {
+	white-space: pre-wrap;
+}
+
+input[type=checkbox].column-checkbox {
+	margin-right: 0.5em;
+}
+
+/* FuzzyComplete.css (MIT License) */
+.fuzzyResults{position:absolute;display:none;border:1px solid #ccc;background:#fff}.__autoitem{cursor:pointer;color:#000;padding:2px}.__autoitem.selected,.__autoitem.selected:hover{background:#9ac}.__autoitem:hover{background:#eee}
+/*# sourceMappingURL=fuzzycomplete.min.css.map */
