@@ -1,0 +1,20 @@
+<Files "socketserver.php">
+	Order Allow,Deny
+	Deny from all
+</Files>
+<Files "startchat.sh">
+	Order Allow,Deny
+	Deny from all
+</Files>
+<Files "restartchat.sh">
+	Order Allow,Deny
+	Deny from all
+</Files>
+<Files "stopchat.sh">
+	Order Allow,Deny
+	Deny from all
+</Files>
+<Files "serverproxy.php">
+	Order Allow,Deny
+	Deny from all
+</Files>
