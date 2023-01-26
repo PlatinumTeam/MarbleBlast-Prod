@@ -15,6 +15,7 @@ Production PHP scripts used for the Marble Blast Platinum / Platinum Quest backe
 - `pq/web` PlatinumQuest Online Administrator tools, namely the Ratings Editor. (~2017-2021)
 - `pq/ratings` PlatinumQuest Online Ratings Viewer webpage (publicly accessible). (~2017-2021)
 - `pq/stats` PlatinumQuest Online statistics and Leaderboards webpages  (publicly accessible). (~2017-2021)
+- `schema.sql` MySQL schema dump from Feb 2021.
 
 ## History
 
@@ -28,7 +29,7 @@ The `pq/` scripts were written between 2016 and 2021, and are actually using jso
 
 These scripts were almost always Developed In Production and as such, were never intended to be used in any other environments. Due to this, they are incredibly strongly tied to the specific server running the entire marbleblast.com website, and will almost certainly never work in another environment (the closest I ever got was running a duplicate copy on my local machine, back in like 2013). Additionally, there's an entire installation of Joomla! that is not included here (for GPL reasons), without which the entire system will not work.
 
-I never managed to grab a proper database schema dump before resigning, so that's not available either. There were a couple stored procedures in there that are not included here, because of said lack of dumping. Not that a schema would fix the above paragraph of problems, but it would have been nice. If you really really want one, ask RandomityGuy, and prepare to get told off because no, of course not.
+There's a MySQL schema dump in `schema.sql` with all of the relevant tables spread across 3 databases (`prod_platinum`, `prod_pq`, `prod_joomla`). I don't recommend looking too closely at it, your brain may never recover from seeing `prod_platinum`.`friends`.
 
 ## Security
 
