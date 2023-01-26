@@ -1,0 +1,71 @@
+#gameList {
+	display: flex;
+	flex-direction: column;
+}
+.gameRow {
+	margin: 4px;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	background-color: #eee;
+}
+.difficultyList {
+	display: flex;
+	flex-direction: row;
+}
+.difficultyCol {
+	display: flex;
+	flex-direction: column;
+
+	flex-grow: 1;
+	margin: 4px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: #ddd;
+}
+.missionList {
+	display: flex;
+	flex-direction: column;
+
+	margin: 4px;
+}
+.gameRow:hover {
+	background-color:#ddd;
+}
+.gameRow:active {
+	background-color:#ccc;
+}
+.gameRow.expanded {
+	background-color: #fff;
+}
+.difficultyCol:hover {
+	background-color:#ccc;
+}
+.difficultyCol:active {
+	background-color:#bbb;
+}
+.difficultyCol.expanded {
+	background-color: #fff;
+}
+
+.difficultyCol > .difficultyTitle {
+	flex-grow: 1;
+}
+.difficultyCol.expanded > .difficultyTitle {
+	flex-grow: 0;
+}
+
+.gameTitle {
+	font-size: 20pt;
+	text-align: center;
+}
+.difficultyTitle {
+	font-size: 16pt;
+	text-align: center;
+}
+.missionTitle {
+	font-size: 11pt;
+}
+.sortable-placeholder {
+	height: 20px;
+	display: block;
+}

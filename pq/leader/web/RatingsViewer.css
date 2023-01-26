@@ -1,0 +1,71 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: #222222;
+    color: #eeeeee;
+}
+
+html#nightMode .form-control {
+    background-color: #222222;
+    color: #eeeeee;
+}
+
+html#nightMode #ratingPlot {
+    filter: invert(1);
+}
+
+html#nightMode button.btn {
+    background-color: #000000;
+    color: #ffffff;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+html#nightMode button.btn:hover {
+    color: #cccccc;
+}
+
+html#nightMode .modal-content {
+    background-color: #222222;
+}
+
+html#nightMode .table-striped tr:nth-child(2n+1) {
+	background-color: #333333;
+}
+
+html#nightMode .table-striped tr:hover {
+	background-color: #444444;
+}
+
+#ratingPlot {
+	height: 350px;
+}
+
+#selectorsForm, #ratingInfo, #ratingChangeLog, #ratingModifiers {
+	padding: 20px;
+	padding-bottom: 0;
+	width: calc(100% - 40px);
+}
+
+.ratingBox, .changeLogBox {
+	display: flex;
+	justify-content: space-between;
+}
+
+.changeLogList {
+	max-height: 400px;
+	overflow-y: scroll;
+}
+
+#topScoresTable {
+	margin: 0 40px;
+	width: calc(100% - 80px);
+}
+
+#topScoresTable th, #topScoresTable td {
+	padding: 0 4px;
+}
