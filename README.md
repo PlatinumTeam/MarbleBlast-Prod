@@ -21,7 +21,7 @@ Production PHP scripts used for the Marble Blast Platinum / Platinum Quest backe
 
 Most of the scripts in `leader/` were written between 2012 and 2014, leading up to the release of Marble Blast Platinum 1.50 and its new Leaderboards system on marbleblast.com. I was 15 years old at the time, and the code quality should make that pretty clear. Half or more of those scripts are no longer available online, due to their features being removed (challenges, super challenges, old chat systems, etc). I may publish them some day, but it's unlikely.
 
-Not included here is the source to Webchat, in `leader/socketserver.php` and related files. It just seemed too fragile and terrible to ever release to the world, at least while it's still running. If Webchat ever goes down for good, let me know and I'll post the source here.
+Webchat is included here, in `leader/socketserver.php` and related files, exactly as how it was on the live site. For posterity reasons, I'm leaving this old disclaimer here: ~~It just seemed too fragile and terrible to ever release to the world, at least while it's still running. If Webchat ever goes down for good, let me know and I'll post the source here.~~ As of Feb 2024, the website is officially toast, so I'm publishing it here :)
 
 The `pq/` scripts were written between 2016 and 2021, and are actually using json and php objects like someone knew what they were doing, at least somewhat. All of these are available online right now, though I'm not sure what changes, if any, have been made since 2021.
 
